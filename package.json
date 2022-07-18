@@ -1,0 +1,23 @@
+{
+  "name": "lonebot",
+  "version": "1.0.0",
+  "description": "Un bot discord pour le discord du stream",
+  "main": "main",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoneWolfStream/Bot.git"
+  },
+  "author": "LoneWolf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoneWolfStream/Bot/issues"
+  },
+  "homepage": "https://github.com/LoneWolfStream/Bot#readme",
+  "dependencies": {
+    "discord.js": "^14.0.2",
+    "dotenv": "^16.0.1"
+  }
+}

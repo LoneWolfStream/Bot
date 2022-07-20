@@ -31,10 +31,9 @@ class LoneWolfBot extends Client{
         this.commands = new Collection();
         this.slashCommands = new Collection();
         this.config = require("../config.js");
+        console.log(this.config.token);
         this.owner = this.config.ownerID;
         this.prefix = this.config.prefix;
-        this.aliases = new Collection();
-        this.commands = new Collection();
         ['SlashCommand', 'Event'].forEach((handler) => {
             require(`../handlers/${handler}`)(this);
         });
